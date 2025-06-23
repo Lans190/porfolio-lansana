@@ -10,13 +10,13 @@ NOM = "Lansana Mané"
 TITRE = "Développeur Data"
 EMAIL = "mlansana16@gmail.com"
 TELEPHONE = "+221 78 416 68 92"
-GITHUB = "https://github.com/jeandupont"
-LINKEDIN = "https://linkedin.com/in/jeandupont"
+GITHUB = "https://github.com/dashboard"
+LINKEDIN = "https://www.linkedin.com/in/lansana-mane-515a8b2ba/"
 COMPETENCES = ["Python", "JavaScript", "React", "Flask", "Docker", "Git"]
 EXPERIENCES = [
     {
-        "titre": "Développeur Senior",
-        "entreprise": "Tech Solutions",
+        "titre": "Développeur Python & Automatisation des processus",
+        "entreprise": "Groupe Sonael",
         "periode": "2020 - Présent",
         "description": "Développement d'applications web avec React et Python."
     },
@@ -223,10 +223,10 @@ app = Flask(__name__, static_folder='static')
 @app.route('/')
 def cv():
     return render_template_string(html_template, 
-                                 nom=NOM, 
-                                 titre=TITRE, 
-                                 email=EMAIL, 
-                                 telephone=TELEPHONE, 
+                                 nom=Lansana Mané, 
+                                 titre=Developpeur Data, 
+                                 email=mlansana16@gmail.com, 
+                                 telephone=784166892, 
                                  github=GITHUB, 
                                  linkedin=LINKEDIN, 
                                  competences=COMPETENCES, 

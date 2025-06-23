@@ -4,15 +4,17 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
 const skills = [
-  { name: "PYTHON", level: 90, color: "#61DAFB" },
+  { name: "PYTHON", level: 80, color: "#61DAFB" },
+  { name: "Flask", level: 70, color: "#3178C6" },
+  { name: "Django", level: 70, color: "#339933" },
+  { name: "HTML/CSS", level: 80, color: "#E34F26" },
   { name: "JavaScript", level: 60, color: "#F7DF1E" },
-  { name: "Flask", level: 80, color: "#3178C6" },
-  { name: "Django", level: 75, color: "#339933" },
-  { name: "HTML/CSS", level: 95, color: "#E34F26" },
+  { name: "WordPress", level: 70, color: "#06B6D4" },
   { name: "PHP", level: 50, color: "#000000" },
-  { name: "Wordspress", level: 90, color: "#06B6D4" },
-  
-  
+  { name: "MySQL", level: 80, color: "#F29111" },
+  { name: "Pandas", level: 85, color: "#150458" },
+  { name: "NumPy", level: 80, color: "#013243" },
+  { name: "Machine Learning", level: 60, color: "#FF6F00" }
 ]
 
 export default function Skills() {
@@ -76,7 +78,7 @@ export default function Skills() {
         <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">Autres technologies et outils</h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Github", "MongoDB", "Cassandra", "Talend", "MysQl", "PostgreSQL", "Excel","Power BI", "Power Automate"].map(
+            {["Github", "MongoDB", "Cassandra", "Talend", "MysQl", "PostgreSQL", "Excel","Power BI", "Power Automate", "Trello", "Postman"].map(
               (tech, index) => (
                 <span
                   key={index}
