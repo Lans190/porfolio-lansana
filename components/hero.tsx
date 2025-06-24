@@ -23,7 +23,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url(/placeholder.svg?height=1080&width=1920)",
+          backgroundImage: "url(lass_1.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           transform: `translateY(${scrollY * 0.5}px)`,

@@ -34,7 +34,7 @@ export default function About() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-500 rounded-lg transform rotate-6"></div>
                 <img
-                  src="/placeholder.svg?height=400&width=300"
+                  src="Lans.jpeg"
                   alt="Portrait"
                   className="relative z-10 rounded-lg shadow-xl w-full"
                 />

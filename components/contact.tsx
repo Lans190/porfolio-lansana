@@ -74,7 +74,7 @@ export default function Contact() {
     }
   }
 
-  // ... (le reste du code reste inchangé)
+  
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
