@@ -5,16 +5,20 @@ import { useInView } from "react-intersection-observer"
 
 const skills = [
   { name: "PYTHON", level: 80, color: "#61DAFB" },
-  { name: "Flask", level: 70, color: "#3178C6" },
-  { name: "Django", level: 70, color: "#339933" },
   { name: "HTML/CSS", level: 80, color: "#E34F26" },
+  { name: "Django", level: 70, color: "#339933" },
   { name: "JavaScript", level: 60, color: "#F7DF1E" },
+  { name: "Flask", level: 70, color: "#3178C6" },
   { name: "WordPress", level: 70, color: "#06B6D4" },
+   { name: "Pandas", level: 85, color: "#150458" },
   { name: "PHP", level: 50, color: "#000000" },
-  { name: "MySQL", level: 80, color: "#F29111" },
-  { name: "Pandas", level: 85, color: "#150458" },
   { name: "NumPy", level: 80, color: "#013243" },
-  { name: "Machine Learning", level: 60, color: "#FF6F00" }
+  { name: "Excel", level: 80, color: "#F29111" },
+   { name: "Power BI", level: 80, color: "#F2C811" },
+  { name: "Machine Learning", level: 60, color: "#FF6F00" },
+  { name: "Power Automate", level: 80, color: "#0066FF" },
+  
+
 ]
 
 export default function Skills() {
@@ -78,7 +82,7 @@ export default function Skills() {
         <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">Autres technologies et outils</h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Github", "MongoDB", "Cassandra", "Talend", "MysQl", "PostgreSQL", "Excel","Power BI", "Power Automate", "Trello", "Postman"].map(
+            {["Github", "Talend", "MysQl", "PostgreSQL", "Trello"].map(
               (tech, index) => (
                 <span
                   key={index}

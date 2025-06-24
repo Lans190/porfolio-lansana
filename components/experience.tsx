@@ -4,15 +4,7 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
 const experiences = [
-  {
-    id: 1,
-    role: "Certification en Developpement WEB",
-    company: "D-CLIC",
-    period: "Mai 2025 -Juin 2025",
-    description:
-      "Réalisation de projets pratiques dont la création d’un site vitrine avec WordPress et d’un site de bibliothèque en ligne. Approfondissement des compétences en HTML/CSS, JavaScript, PHP et MySQL, avec application des méthodes agiles tout au long de la formation.",
-    technologies: ["WordPess", "HTML/CSS", "JavaScrit", "PHP", "MySQL"],
-  },
+ 
   {
     id: 2,
     role: "Développeur DATA",
