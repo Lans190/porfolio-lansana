@@ -31,6 +31,38 @@ export default function Hero() {
         }}
       />
 
+      {/* Horizontal Navigation - top right */}
+      <nav className="absolute top-6 right-10 z-30">
+        <ul className="flex space-x-6 bg-black/40 px-6 py-2 rounded-full">
+          <li>
+            <a href="#" className="text-gray-300 hover:text-white transition-colors font-medium">
+              Accueil
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="text-gray-300 hover:text-white transition-colors font-medium">
+              À propos
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="text-gray-300 hover:text-white transition-colors font-medium">
+              Projets
+            </a>
+          </li>
+          <li>
+            <a href="#certifications" className="text-gray-300 hover:text-white transition-colors font-medium">
+              Certifications
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="text-gray-300 hover:text-white transition-colors font-medium">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10" />
 

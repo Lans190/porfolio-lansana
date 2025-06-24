@@ -114,13 +114,6 @@ const certifications = [
 
 
 
-
-
-
-
-
-
-
 export default function Projects() {
   const [filter, setFilter] = useState("all")
   const [ref, inView] = useInView({

@@ -40,6 +40,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
+               <a href="#certifications" className="text-gray-400 hover:text-white transition-colors">
+                 Certifications
+               </a>
+              </li>
+                <li>
                   <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
                     Contact
                   </a>
