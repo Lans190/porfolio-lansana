@@ -3,6 +3,10 @@
 import React from "react"
 
 const certifications = [
+{
+    title: "Certification en Développement Web– D-CLIC",
+    url: "https://dclic.francophonie.org/mod/customcert/view.php?id=2715&downloadown=1",
+  },
   {
     title: "Certification en Traitement de données – Force-N",
     url: "https://formation.force-n.sn/mod/customcert/view.php?id=15413&downloadown=1",
