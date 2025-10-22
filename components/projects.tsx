@@ -26,6 +26,27 @@ const projects = [
       "Ce projet, entièrement développé sur Excel, offre une solution complète pour gérer efficacement les stocks d’une entreprise...",
   },
   {
+    id: 1,
+    title: "GESTION RH",
+    description: "Un système complet de gestion des ressources humaines développé sous Excel et VBA, permettant de suivre les employés, les Paies et les Congés à travers des tableaux de bord automatisés.",
+    image: "papa_lans.mp4",
+    category: "Data",
+    technologies: ["Excel", "VBA"],
+    details:
+      "Ce projet a été entièrement conçu à l’aide d’Excel et de VBA pour automatiser la gestion RH d’une entreprise. Il inclut la gestion du personnel (fiches employés, Paie, Congés), le suivi des congés et absences  ainsi que des tableaux de bord dynamiques offrant une vue d’ensemble sur les effectifs, la répartition par service et l’évolution des performances. Grâce à VBA, plusieurs processus sont automatisés, réduisant les tâches manuelles et améliorant la fiabilité des données.",
+  },
+  {
+    id: 1,
+    title: "GESTION De Caisse Scolaire",
+    description: "Un système complet de gestion financière et administrative pour établissements scolaires, développé sous Excel et VBA. Il couvre tous les cycles — préscolaire, primaire, moyen et secondaire — avec des modules adaptés à chaque niveau pour le suivi des élèves, des paiements, des dépenses et des indicateurs clés.",
+    image: "Papa.mp4",
+    category: "Data",
+    technologies: ["Excel", "VBA"],
+    details:
+      "Un système Excel-VBA automatisant la gestion de la caisse d’une école multicyle, incluant le suivi des élèves, paiements et dépenses.",
+  },
+
+  {
     id: 2,
     title: "Gestion d'une Bibliothèque en Ligne",
     description: "Site web interactif pour gérer une bibliothèque : recherche, prêt, gestion des livres et des lecteurs.",

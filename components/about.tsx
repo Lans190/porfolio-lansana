@@ -46,7 +46,7 @@ export default function About() {
                 Passionné par l’analyse de données et l’automatisation, j’ai développé des compétences solides en Python, JavaScript, PHP, CSS et MySQL.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-                J’ai effectué un stage au sein du Groupe Sonatel en tant que développeur Python (novembre 2024 à Juin 2025), où j’ai automatisé plusieurs processus métiers à l’aide de Power Automate.
+                J’ai effectué un stage au sein du Groupe Sonatel en tant que développeur Python (novembre 2024 à Aôut 2025), où j’ai automatisé plusieurs processus métiers à l’aide de Power Automate.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300">
                 Ma formation à Sonatel Académie et mon parcours en mathématiques et informatique me permettent de concevoir des solutions numériques robustes, efficaces et évolutives.
@@ -95,7 +95,7 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white">Expérience</h3>
-                    <p className="text-gray-600 dark:text-gray-400">6 mois chez Sonatel</p>
+                    <p className="text-gray-600 dark:text-gray-400">9 mois chez Sonatel</p>
                   </div>
                 </div>
               </div>
