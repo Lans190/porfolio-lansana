@@ -26,7 +26,7 @@ const projects = [
       "Ce projet, entièrement développé sur Excel, offre une solution complète pour gérer efficacement les stocks d’une entreprise...",
   },
   {
-    id: 1,
+    id: 2,
     title: "GESTION RH",
     description: "Un système complet de gestion des ressources humaines développé sous Excel et VBA, permettant de suivre les employés, les Paies et les Congés à travers des tableaux de bord automatisés.",
     image: "papa_lans.mp4",
@@ -36,7 +36,7 @@ const projects = [
       "Ce projet a été entièrement conçu à l’aide d’Excel et de VBA pour automatiser la gestion RH d’une entreprise. Il inclut la gestion du personnel (fiches employés, Paie, Congés), le suivi des congés et absences  ainsi que des tableaux de bord dynamiques offrant une vue d’ensemble sur les effectifs, la répartition par service et l’évolution des performances. Grâce à VBA, plusieurs processus sont automatisés, réduisant les tâches manuelles et améliorant la fiabilité des données.",
   },
   {
-    id: 1,
+    id: 3,
     title: "GESTION De Caisse Scolaire",
     description: "Un système complet de gestion financière et administrative pour établissements scolaires, développé sous Excel et VBA. Il couvre tous les cycles — préscolaire, primaire, moyen et secondaire — avec des modules adaptés à chaque niveau pour le suivi des élèves, des paiements, des dépenses et des indicateurs clés.",
     image: "Papa.mp4",
@@ -47,7 +47,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Gestion d'une Bibliothèque en Ligne",
     description: "Site web interactif pour gérer une bibliothèque : recherche, prêt, gestion des livres et des lecteurs.",
     image: "projet_php.mp4",
@@ -58,7 +58,7 @@ const projects = [
       "Projet individuel réalisé en PHP avec MySQL, HTML, CSS et JavaScript...",
   },
   {
-    id: 3,
+    id: 5,
     title: "Tableau de Bord RH sur Excel",
     description: "Dashboard RH complet pour suivre les effectifs, salaires, âges et répartitions par département.",
     image: "gestion_RH.mp4",
@@ -68,7 +68,7 @@ const projects = [
       "Ce tableau de bord RH sous Excel permet de suivre efficacement la masse salariale...",
   },
   {
-    id: 4,
+    id: 6,
     title: "Jeu du Morpion",
     description: "Jeu interactif développé en JavaScript pour jouer au morpion (tic-tac-toe) contre une intelligence artificielle.",
     image: "jeu_portion.mp4",
@@ -79,7 +79,7 @@ const projects = [
       "Ce projet est un jeu de morpion (tic-tac-toe) conçu en HTML, CSS, et JavaScript...",
   },
   {
-    id: 5,
+    id: 7,
     title: "Gestion des Livres — Application CRUD avec Django, React & API",
     description: "Application web complète permettant de gérer une bibliothèque de livres avec Django REST API et React.",
     image: "djiango_react.mp4",
@@ -90,7 +90,7 @@ const projects = [
       "Application CRUD de gestion de livres développée avec React en frontend et Django REST Framework en backend...",
   },
   {
-    id: 6,
+    id: 8,
     title: "Simulation de Crédit — Application Flask avec Modèle de Machine Learning",
     description: "Application Flask + ML pour prédire l’acceptation d’un crédit avec modèle entraîné.",
     image: "ml.mp4",
